@@ -8,4 +8,11 @@
 body {
   background-color: #212121;
   color: #ffffff;
+  padding-bottom: 500px;
+}
+
+.if-class {
+  border-bottom: 1px solid red;
+  padding: 2rem;
+  margin-bottom: 1rem;
 }
