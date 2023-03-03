@@ -1,0 +1,13 @@
+<div class="if-class">
+  <p>Two way binding works!</p>
+  <form action="">
+    <input
+      type="text"
+      {{ngModel}}="name"
+      name="name"
+      placeholder="Digite o seu nome"
+    />
+    <input type="submit" value="Enviar" />
+  </form>
+  <p>O nome é: {{ name }}</p>
+</div>
