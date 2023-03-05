@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* position: fixed; */
+  /* top: 0; */
+
+  /* width: 100%; */
+  padding: 0px 20px;
+  border-bottom: 1px solid #cecece;
+}
+
+.logo {
+  padding: 15px 20px;
+}
+
+.menu > ul {
+  display: flex;
+  gap: 10px;
+
+  height: 100%;
+  border: 1px solid red;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  padding: 15px 20px;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+li:hover {
+  background: #f6f6f6;
+  border: 1px solid #ccc;
+}

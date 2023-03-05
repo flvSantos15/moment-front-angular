@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+
+  border: 1px solid red;
+
+  display: flex;
+  padding: 15px 20px;
+
+  width: 100%;
+}
+
+.footer h4 {
+  /* here goes styles for h4 */
+}
